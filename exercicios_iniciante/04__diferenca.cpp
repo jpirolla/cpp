@@ -1,14 +1,12 @@
 #include <iostream>
- 
-using namespace std;
- 
+
 int main() {
     int A, B, C, D;
     
-    cin >> A >> B >> C >> D;
+    std::cin >> A >> B >> C >> D;
     
     int dif = (A*B-C*D);
     
-    cout << "DIFERENCA = " << dif << endl;
+    std::cout << "DIFERENCA = " << dif << std::endl;
     return 0;
 }
